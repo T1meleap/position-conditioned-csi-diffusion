@@ -1,0 +1,394 @@
+[
+  {
+    "map": 0,
+    "tx_position_m": [
+      237.50399780273438,
+      580.0,
+      6.0
+    ],
+    "splits": {
+      "train": {
+        "points": 2000,
+        "relative_x_range_m": [
+          -237.50399780273438,
+          69.48599243164062
+        ],
+        "distance_range_m": [
+          88.03073120117188,
+          299.454833984375
+        ],
+        "direct_path_fraction": 0.4635,
+        "channel_rms_absolute": 8.561923163674877e-08
+      },
+      "val": {
+        "points": 1000,
+        "relative_x_range_m": [
+          70.29598999023438,
+          122.94601440429688
+        ],
+        "distance_range_m": [
+          114.11783599853516,
+          217.94564819335938
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 9.661209072130102e-08
+      },
+      "test": {
+        "points": 2000,
+        "relative_x_range_m": [
+          123.75601196289062,
+          202.32598876953125
+        ],
+        "distance_range_m": [
+          153.18399047851562,
+          272.33197021484375
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 7.263388186976036e-08
+      }
+    }
+  },
+  {
+    "map": 1,
+    "tx_position_m": [
+      237.50399780273438,
+      580.0,
+      6.0
+    ],
+    "splits": {
+      "train": {
+        "points": 2000,
+        "relative_x_range_m": [
+          -237.50399780273438,
+          69.48599243164062
+        ],
+        "distance_range_m": [
+          87.6471939086914,
+          298.7512512207031
+        ],
+        "direct_path_fraction": 0.44,
+        "channel_rms_absolute": 8.171265655658672e-08
+      },
+      "val": {
+        "points": 1000,
+        "relative_x_range_m": [
+          70.29598999023438,
+          122.94601440429688
+        ],
+        "distance_range_m": [
+          113.46772766113281,
+          217.8580780029297
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 9.652187176778455e-08
+      },
+      "test": {
+        "points": 2000,
+        "relative_x_range_m": [
+          123.75601196289062,
+          202.32598876953125
+        ],
+        "distance_range_m": [
+          152.2729949951172,
+          271.9674072265625
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 7.23956006681473e-08
+      }
+    }
+  },
+  {
+    "map": 2,
+    "tx_position_m": [
+      237.50399780273438,
+      580.0,
+      6.0
+    ],
+    "splits": {
+      "train": {
+        "points": 2000,
+        "relative_x_range_m": [
+          -237.50399780273438,
+          69.48599243164062
+        ],
+        "distance_range_m": [
+          88.65251159667969,
+          298.5143737792969
+        ],
+        "direct_path_fraction": 0.444,
+        "channel_rms_absolute": 8.155712731154775e-08
+      },
+      "val": {
+        "points": 1000,
+        "relative_x_range_m": [
+          70.29598999023438,
+          122.94601440429688
+        ],
+        "distance_range_m": [
+          115.47997283935547,
+          220.86892700195312
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 9.623569704945652e-08
+      },
+      "test": {
+        "points": 2000,
+        "relative_x_range_m": [
+          123.75601196289062,
+          202.32598876953125
+        ],
+        "distance_range_m": [
+          152.88636779785156,
+          270.48394775390625
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 7.212761242219568e-08
+      }
+    }
+  },
+  {
+    "map": 3,
+    "tx_position_m": [
+      237.50399780273438,
+      580.0,
+      6.0
+    ],
+    "splits": {
+      "train": {
+        "points": 2000,
+        "relative_x_range_m": [
+          -237.50399780273438,
+          69.48599243164062
+        ],
+        "distance_range_m": [
+          88.2405014038086,
+          298.127685546875
+        ],
+        "direct_path_fraction": 0.445,
+        "channel_rms_absolute": 8.234370767368267e-08
+      },
+      "val": {
+        "points": 1000,
+        "relative_x_range_m": [
+          70.29598999023438,
+          122.94601440429688
+        ],
+        "distance_range_m": [
+          114.8557357788086,
+          218.99342346191406
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 9.663954134594002e-08
+      },
+      "test": {
+        "points": 2000,
+        "relative_x_range_m": [
+          123.75601196289062,
+          202.32598876953125
+        ],
+        "distance_range_m": [
+          153.0746307373047,
+          272.70831298828125
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 7.19560671575815e-08
+      }
+    }
+  },
+  {
+    "map": 4,
+    "tx_position_m": [
+      237.50399780273438,
+      650.0,
+      80.0
+    ],
+    "splits": {
+      "train": {
+        "points": 2000,
+        "relative_x_range_m": [
+          -237.50399780273438,
+          69.48599243164062
+        ],
+        "distance_range_m": [
+          155.81910705566406,
+          342.0102844238281
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 6.075956676489081e-08
+      },
+      "val": {
+        "points": 1000,
+        "relative_x_range_m": [
+          70.29598999023438,
+          122.94601440429688
+        ],
+        "distance_range_m": [
+          170.7415008544922,
+          280.7489929199219
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 6.508369923983217e-08
+      },
+      "test": {
+        "points": 2000,
+        "relative_x_range_m": [
+          123.75601196289062,
+          202.32598876953125
+        ],
+        "distance_range_m": [
+          198.81320190429688,
+          324.09228515625
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 5.3797087814803635e-08
+      }
+    }
+  },
+  {
+    "map": 5,
+    "tx_position_m": [
+      237.50399780273438,
+      650.0,
+      80.0
+    ],
+    "splits": {
+      "train": {
+        "points": 2000,
+        "relative_x_range_m": [
+          -237.50399780273438,
+          69.48599243164062
+        ],
+        "distance_range_m": [
+          155.6884765625,
+          342.6495666503906
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 6.044823514435217e-08
+      },
+      "val": {
+        "points": 1000,
+        "relative_x_range_m": [
+          70.29598999023438,
+          122.94601440429688
+        ],
+        "distance_range_m": [
+          173.70535278320312,
+          280.2868957519531
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 6.502248571470898e-08
+      },
+      "test": {
+        "points": 2000,
+        "relative_x_range_m": [
+          123.75601196289062,
+          202.32598876953125
+        ],
+        "distance_range_m": [
+          199.88284301757812,
+          323.3699035644531
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 5.373844116083404e-08
+      }
+    }
+  },
+  {
+    "map": 6,
+    "tx_position_m": [
+      237.50399780273438,
+      650.0,
+      80.0
+    ],
+    "splits": {
+      "train": {
+        "points": 2000,
+        "relative_x_range_m": [
+          -237.50399780273438,
+          69.48599243164062
+        ],
+        "distance_range_m": [
+          155.97415161132812,
+          344.6349182128906
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 6.015282240282779e-08
+      },
+      "val": {
+        "points": 1000,
+        "relative_x_range_m": [
+          70.29598999023438,
+          122.94601440429688
+        ],
+        "distance_range_m": [
+          171.7359619140625,
+          280.5101318359375
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 6.4636588551425e-08
+      },
+      "test": {
+        "points": 2000,
+        "relative_x_range_m": [
+          123.75601196289062,
+          202.32598876953125
+        ],
+        "distance_range_m": [
+          199.51148986816406,
+          323.27392578125
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 5.3696175963538835e-08
+      }
+    }
+  },
+  {
+    "map": 7,
+    "tx_position_m": [
+      237.50399780273438,
+      650.0,
+      80.0
+    ],
+    "splits": {
+      "train": {
+        "points": 2000,
+        "relative_x_range_m": [
+          -237.50399780273438,
+          69.48599243164062
+        ],
+        "distance_range_m": [
+          155.0572052001953,
+          346.8744812011719
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 6.047462993437257e-08
+      },
+      "val": {
+        "points": 1000,
+        "relative_x_range_m": [
+          70.29598999023438,
+          122.94601440429688
+        ],
+        "distance_range_m": [
+          172.25946044921875,
+          280.7685241699219
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 6.4384307153449e-08
+      },
+      "test": {
+        "points": 2000,
+        "relative_x_range_m": [
+          123.75601196289062,
+          202.32598876953125
+        ],
+        "distance_range_m": [
+          198.95904541015625,
+          323.8048095703125
+        ],
+        "direct_path_fraction": 1.0,
+        "channel_rms_absolute": 5.388084815383738e-08
+      }
+    }
+  }
+]

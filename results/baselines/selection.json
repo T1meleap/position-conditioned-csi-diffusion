@@ -1,0 +1,427 @@
+{
+  "selected": {
+    "Joint relative-ridge LMMSE": {
+      "ridge_ratio": 0.01,
+      "absolute_loading": 5.2593444014507894e-17,
+      "condition_number": 784.1517964387476,
+      "raw_complex_csi": true,
+      "normalization": false,
+      "pseudoinverse": false
+    },
+    "GMM-MMSE no position": {
+      "components": 1,
+      "ridge_scaled_coordinates": 0.01,
+      "position": false,
+      "seed": 2026,
+      "converged": true,
+      "iterations": 2,
+      "feature_dimension": 256,
+      "training_only_common_csi_scale": 7.250941255331305e-08
+    },
+    "GMM-MMSE XYZ": {
+      "components": 1,
+      "ridge_scaled_coordinates": 0.01,
+      "position": true,
+      "seed": 2026,
+      "converged": true,
+      "iterations": 2,
+      "feature_dimension": 259,
+      "training_only_common_csi_scale": 7.250941255331305e-08
+    }
+  },
+  "candidates": [
+    {
+      "method": "Joint relative-ridge LMMSE",
+      "config": {
+        "ridge_ratio": 1e-06,
+        "absolute_loading": 5.2593444014507896e-21,
+        "condition_number": 7678295.030766461,
+        "raw_complex_csi": true,
+        "normalization": false,
+        "pseudoinverse": false
+      },
+      "validation": {
+        "complex_nmse_db": 1.514405154310241,
+        "magnitude_nmse_db": -5.794331276932252,
+        "weighted_phase_deg": 92.11497903699048,
+        "strong_phase_deg": 93.21489436538178,
+        "relative_antenna_phase_deg": 22.017455800628408,
+        "beamforming_fraction_mean": 0.8682008972021277,
+        "beamforming_fraction_power_weighted": 0.8749714688278274,
+        "beamforming_loss_db": 0.5800610827215196,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          1.485537414228283,
+          1.5339280959714965,
+          1.5258558072849837,
+          1.5206688726082813,
+          1.5327406021145908,
+          1.5408795593115885,
+          1.522215613149656,
+          1.4527367417788428
+        ]
+      }
+    },
+    {
+      "method": "Joint relative-ridge LMMSE",
+      "config": {
+        "ridge_ratio": 0.001,
+        "absolute_loading": 5.259344401450789e-18,
+        "condition_number": 7832.377299416469,
+        "raw_complex_csi": true,
+        "normalization": false,
+        "pseudoinverse": false
+      },
+      "validation": {
+        "complex_nmse_db": 1.3778006010136439,
+        "magnitude_nmse_db": -5.671158707899508,
+        "weighted_phase_deg": 91.33534705893629,
+        "strong_phase_deg": 92.67532313614781,
+        "relative_antenna_phase_deg": 25.24266671360562,
+        "beamforming_fraction_mean": 0.8602713353262529,
+        "beamforming_fraction_power_weighted": 0.8606746340879059,
+        "beamforming_loss_db": 0.6516099642783963,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          1.0952690042108169,
+          1.3633896518694089,
+          1.5230146705762884,
+          1.5572811264434394,
+          1.5399544995080117,
+          1.4873288286081827,
+          1.3372764277254314,
+          1.0895947511042168
+        ]
+      }
+    },
+    {
+      "method": "Joint relative-ridge LMMSE",
+      "config": {
+        "ridge_ratio": 0.01,
+        "absolute_loading": 5.2593444014507894e-17,
+        "condition_number": 784.1517964387476,
+        "raw_complex_csi": true,
+        "normalization": false,
+        "pseudoinverse": false
+      },
+      "validation": {
+        "complex_nmse_db": 1.2252295442568855,
+        "magnitude_nmse_db": -5.5533524586875105,
+        "weighted_phase_deg": 90.28751241691053,
+        "strong_phase_deg": 91.82681313659694,
+        "relative_antenna_phase_deg": 28.389078934906518,
+        "beamforming_fraction_mean": 0.849175552397947,
+        "beamforming_fraction_power_weighted": 0.8412269965333853,
+        "beamforming_loss_db": 0.7508679844726175,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          0.8473914166538405,
+          1.154840783580608,
+          1.3884612822211078,
+          1.4947253910253697,
+          1.4942125313858408,
+          1.3862531328722674,
+          1.1462057082576647,
+          0.8318967204413096
+        ]
+      }
+    },
+    {
+      "method": "GMM-MMSE no position",
+      "config": {
+        "components": 1,
+        "ridge_scaled_coordinates": 0.001,
+        "position": false,
+        "seed": 2026,
+        "converged": true,
+        "iterations": 2,
+        "feature_dimension": 256,
+        "training_only_common_csi_scale": 7.250941255331305e-08
+      },
+      "validation": {
+        "complex_nmse_db": 1.3437779577566866,
+        "magnitude_nmse_db": -5.656448603847293,
+        "weighted_phase_deg": 91.11330866488473,
+        "strong_phase_deg": 92.48574308553098,
+        "relative_antenna_phase_deg": 25.879918456789827,
+        "beamforming_fraction_mean": 0.858347054510735,
+        "beamforming_fraction_power_weighted": 0.8574014017823363,
+        "beamforming_loss_db": 0.668158107882555,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          1.0340164025384586,
+          1.3170936290914104,
+          1.4973693730107147,
+          1.5476659366253,
+          1.534116364949198,
+          1.4686686634746668,
+          1.292822166408478,
+          1.0219387651291265
+        ]
+      }
+    },
+    {
+      "method": "GMM-MMSE no position",
+      "config": {
+        "components": 1,
+        "ridge_scaled_coordinates": 0.01,
+        "position": false,
+        "seed": 2026,
+        "converged": true,
+        "iterations": 2,
+        "feature_dimension": 256,
+        "training_only_common_csi_scale": 7.250941255331305e-08
+      },
+      "validation": {
+        "complex_nmse_db": 1.1554637081239703,
+        "magnitude_nmse_db": -5.455479616429219,
+        "weighted_phase_deg": 89.87930535415434,
+        "strong_phase_deg": 91.47256916676261,
+        "relative_antenna_phase_deg": 29.983726091207235,
+        "beamforming_fraction_mean": 0.8416852390779104,
+        "beamforming_fraction_power_weighted": 0.8295165624835116,
+        "beamforming_loss_db": 0.8117493824313347,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          0.7609690141862935,
+          1.0641150477545143,
+          1.3179213200391282,
+          1.4537982194628294,
+          1.4559917665471176,
+          1.3210486573158107,
+          1.0585057718448092,
+          0.7456430928053476
+        ]
+      }
+    },
+    {
+      "method": "GMM-MMSE no position",
+      "config": {
+        "components": 4,
+        "ridge_scaled_coordinates": 0.001,
+        "position": false,
+        "seed": 2026,
+        "converged": false,
+        "iterations": 100,
+        "feature_dimension": 256,
+        "training_only_common_csi_scale": 7.250941255331305e-08
+      },
+      "validation": {
+        "complex_nmse_db": 2.9559171031472733,
+        "magnitude_nmse_db": -10.637754095319938,
+        "weighted_phase_deg": 95.29263921044988,
+        "strong_phase_deg": 93.11790569273204,
+        "relative_antenna_phase_deg": 10.092309866635656,
+        "beamforming_fraction_mean": 0.9436374990537044,
+        "beamforming_fraction_power_weighted": 0.954095265822727,
+        "beamforming_loss_db": 0.20408259095170841,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          2.9132044705551206,
+          2.9365339719723567,
+          2.947929820419925,
+          2.9552817123188317,
+          2.9637761486184138,
+          2.975028973811142,
+          2.9827203336340706,
+          2.9722372811621156
+        ]
+      }
+    },
+    {
+      "method": "GMM-MMSE no position",
+      "config": {
+        "components": 4,
+        "ridge_scaled_coordinates": 0.01,
+        "position": false,
+        "seed": 2026,
+        "converged": true,
+        "iterations": 44,
+        "feature_dimension": 256,
+        "training_only_common_csi_scale": 7.250941255331305e-08
+      },
+      "validation": {
+        "complex_nmse_db": 2.266323856115255,
+        "magnitude_nmse_db": -9.722285750382166,
+        "weighted_phase_deg": 91.37090545546978,
+        "strong_phase_deg": 87.9863067763647,
+        "relative_antenna_phase_deg": 10.619946951136818,
+        "beamforming_fraction_mean": 0.9475366777260241,
+        "beamforming_fraction_power_weighted": 0.9575351147756732,
+        "beamforming_loss_db": 0.18845290598318726,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          2.213101416250371,
+          2.284856621570401,
+          2.2985913390081913,
+          2.2938408417772314,
+          2.2908414728781943,
+          2.288816833621697,
+          2.267743073074141,
+          2.1914991636258794
+        ]
+      }
+    },
+    {
+      "method": "GMM-MMSE XYZ",
+      "config": {
+        "components": 1,
+        "ridge_scaled_coordinates": 0.001,
+        "position": true,
+        "seed": 2026,
+        "converged": true,
+        "iterations": 2,
+        "feature_dimension": 259,
+        "training_only_common_csi_scale": 7.250941255331305e-08
+      },
+      "validation": {
+        "complex_nmse_db": 1.3448188360470668,
+        "magnitude_nmse_db": -5.6581264415976875,
+        "weighted_phase_deg": 91.12126792270509,
+        "strong_phase_deg": 92.48339547981531,
+        "relative_antenna_phase_deg": 25.9305058814519,
+        "beamforming_fraction_mean": 0.8579609963561443,
+        "beamforming_fraction_power_weighted": 0.8570222844916178,
+        "beamforming_loss_db": 0.6700788530443857,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          1.0348718485630546,
+          1.3181663140595261,
+          1.4987096946550524,
+          1.5491379336203306,
+          1.5354478284734498,
+          1.4696430260321145,
+          1.2934677818034244,
+          1.022479587815766
+        ]
+      }
+    },
+    {
+      "method": "GMM-MMSE XYZ",
+      "config": {
+        "components": 1,
+        "ridge_scaled_coordinates": 0.01,
+        "position": true,
+        "seed": 2026,
+        "converged": true,
+        "iterations": 2,
+        "feature_dimension": 259,
+        "training_only_common_csi_scale": 7.250941255331305e-08
+      },
+      "validation": {
+        "complex_nmse_db": 1.1565087375127712,
+        "magnitude_nmse_db": -5.457138257564223,
+        "weighted_phase_deg": 89.88998360000208,
+        "strong_phase_deg": 91.47295080717383,
+        "relative_antenna_phase_deg": 30.02332331462752,
+        "beamforming_fraction_mean": 0.8412935649513281,
+        "beamforming_fraction_power_weighted": 0.8291626468886513,
+        "beamforming_loss_db": 0.8136027075513631,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          0.7620261666377547,
+          1.0653482411653263,
+          1.3193137634186882,
+          1.4551983124084433,
+          1.457179049510432,
+          1.3218948177253016,
+          1.0590975375780385,
+          0.7462079494878167
+        ]
+      }
+    },
+    {
+      "method": "GMM-MMSE XYZ",
+      "config": {
+        "components": 4,
+        "ridge_scaled_coordinates": 0.001,
+        "position": true,
+        "seed": 2026,
+        "converged": true,
+        "iterations": 82,
+        "feature_dimension": 259,
+        "training_only_common_csi_scale": 7.250941255331305e-08
+      },
+      "validation": {
+        "complex_nmse_db": 1.5243090019438092,
+        "magnitude_nmse_db": -9.939690808807422,
+        "weighted_phase_deg": 73.85885786866838,
+        "strong_phase_deg": 69.72495592700871,
+        "relative_antenna_phase_deg": 11.08421844417684,
+        "beamforming_fraction_mean": 0.9373974171260963,
+        "beamforming_fraction_power_weighted": 0.9528811942873003,
+        "beamforming_loss_db": 0.20961244043582972,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          1.517507387080699,
+          1.5114757961338627,
+          1.5094678879075083,
+          1.5203899511817833,
+          1.5271149400450947,
+          1.5223489466742215,
+          1.5297162170562388,
+          1.5561745497285784
+        ]
+      }
+    },
+    {
+      "method": "GMM-MMSE XYZ",
+      "config": {
+        "components": 4,
+        "ridge_scaled_coordinates": 0.01,
+        "position": true,
+        "seed": 2026,
+        "converged": false,
+        "iterations": 100,
+        "feature_dimension": 259,
+        "training_only_common_csi_scale": 7.250941255331305e-08
+      },
+      "validation": {
+        "complex_nmse_db": 1.9889468673140764,
+        "magnitude_nmse_db": -9.852063756002607,
+        "weighted_phase_deg": 84.49155234897943,
+        "strong_phase_deg": 79.72966786961419,
+        "relative_antenna_phase_deg": 11.457348231272787,
+        "beamforming_fraction_mean": 0.9431014958652052,
+        "beamforming_fraction_power_weighted": 0.9534068039973745,
+        "beamforming_loss_db": 0.20721753050920755,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 0.0,
+        "per_antenna_complex_nmse_db": [
+          1.9890234370240532,
+          1.9969802274634354,
+          1.9813296742439053,
+          1.9704073691973356,
+          1.9753153460017332,
+          1.993763295165774,
+          2.0096985788615243,
+          1.9948895974888288
+        ]
+      }
+    }
+  ],
+  "failures": {},
+  "selection_metric": "validation complex NMSE",
+  "test_used": false
+}

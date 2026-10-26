@@ -1,0 +1,142 @@
+{
+  "diffusion": {
+    "complex_nmse_db": -10.15725348824501,
+    "magnitude_nmse_db": -12.844517411184196,
+    "weighted_phase_deg": 9.425924089257915,
+    "strong_phase_deg": 9.403705665928618,
+    "relative_antenna_phase_deg": 7.63391356986373,
+    "beamforming_fraction_mean": 0.9655403095198537,
+    "beamforming_fraction_power_weighted": 0.9644150175362932,
+    "beamforming_loss_db": 0.1574040819163963
+  },
+  "baselines": {
+    "LS RI interpolation": {
+      "complex_nmse_db": 2.762101946003959,
+      "magnitude_nmse_db": -9.332949630338799,
+      "weighted_phase_deg": 101.38726867369908,
+      "strong_phase_deg": 100.29733089308019,
+      "relative_antenna_phase_deg": 8.193983794792679,
+      "beamforming_fraction_mean": 0.9561266415036308,
+      "beamforming_fraction_power_weighted": 0.9628335852568605,
+      "beamforming_loss_db": 0.1644876920991309,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        2.7599289829011706,
+        2.762545418113858,
+        2.7642092135447482,
+        2.7621424830602836,
+        2.760198513674574,
+        2.7614233351954076,
+        2.762965749893535,
+        2.7634030176795776
+      ]
+    },
+    "Joint raw LMMSE": {
+      "complex_nmse_db": 15.032748203849541,
+      "magnitude_nmse_db": 14.455103813775223,
+      "weighted_phase_deg": 75.81951254588745,
+      "strong_phase_deg": 73.1590513201466,
+      "relative_antenna_phase_deg": 32.99542374342574,
+      "beamforming_fraction_mean": 0.769694271818824,
+      "beamforming_fraction_power_weighted": 0.7430879589302951,
+      "beamforming_loss_db": 1.289597759875936,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        17.33677774815709,
+        14.16163140527839,
+        12.340045601653372,
+        12.280933202687358,
+        12.939570131637076,
+        13.831783036602587,
+        15.3756626184674,
+        17.946527579675365
+      ]
+    },
+    "Joint relative-ridge LMMSE": {
+      "complex_nmse_db": 1.3976568930599087,
+      "magnitude_nmse_db": -6.058475439408602,
+      "weighted_phase_deg": 79.51655626894394,
+      "strong_phase_deg": 76.46730927105685,
+      "relative_antenna_phase_deg": 43.551789772033906,
+      "beamforming_fraction_mean": 0.7347281916111029,
+      "beamforming_fraction_power_weighted": 0.7173496053284782,
+      "beamforming_loss_db": 1.4426913629749938,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        1.5208621169838585,
+        1.5574106676427382,
+        1.4093439905259655,
+        1.1033043467313177,
+        1.095448960098965,
+        1.4115752830426334,
+        1.5681643428891738,
+        1.4862072252025293
+      ]
+    },
+    "GMM-MMSE no position": {
+      "complex_nmse_db": 1.0573467673740253,
+      "magnitude_nmse_db": -6.090085030910504,
+      "weighted_phase_deg": 79.89156610831587,
+      "strong_phase_deg": 76.93124641654357,
+      "relative_antenna_phase_deg": 46.94383897167656,
+      "beamforming_fraction_mean": 0.7109586955615961,
+      "beamforming_fraction_power_weighted": 0.6899533972284053,
+      "beamforming_loss_db": 1.611802426106582,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        1.022847031104196,
+        1.2498593600708643,
+        1.175951205251316,
+        0.771370762298626,
+        0.7699657279483536,
+        1.1881466360866209,
+        1.2599694574540885,
+        0.9888413015227668
+      ]
+    },
+    "GMM-MMSE XYZ": {
+      "complex_nmse_db": 1.0592727632297747,
+      "magnitude_nmse_db": -6.0935930273235215,
+      "weighted_phase_deg": 79.89597922770875,
+      "strong_phase_deg": 76.94487492610374,
+      "relative_antenna_phase_deg": 47.0375302615397,
+      "beamforming_fraction_mean": 0.7096856868083676,
+      "beamforming_fraction_power_weighted": 0.6890245160698681,
+      "beamforming_loss_db": 1.6176532525573937,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        1.024526078735812,
+        1.2523554516711812,
+        1.178728685663452,
+        0.7737689156515295,
+        0.7718643907082021,
+        1.1898890917120215,
+        1.2614802439366868,
+        0.9897307475640633
+      ]
+    }
+  },
+  "test_points": 16000,
+  "training_seeds": [
+    2027,
+    2028
+  ],
+  "sampling_seeds": [
+    12345,
+    23456,
+    34567
+  ],
+  "aggregation": "mean saved sampling metrics within run, then arithmetic mean across specified training runs; dB means remain dB means",
+  "all_seed_archive": "archive/shared_independent_3seed_400_T200/summary.json",
+  "protocol": "../docs/evaluation.md"
+}

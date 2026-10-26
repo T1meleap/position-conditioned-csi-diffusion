@@ -1,0 +1,27 @@
+{
+  "dataset": ".\\datasets\\deepmimo_o1_drone_200_8x1",
+  "seed": 2027,
+  "epochs": 400,
+  "timesteps": 200,
+  "batch_size": 512,
+  "evaluation_batch_size": 1024,
+  "mode": "independent",
+  "cap": 0,
+  "num_tx": 8,
+  "coordinates": "relative_xyz",
+  "learning_rate": 0.0002,
+  "warmup_epochs": 5,
+  "minimum_lr_ratio": 0.1,
+  "ema": 0.999,
+  "weight_decay": 1e-05,
+  "patience": 30,
+  "validation_interval": 10,
+  "validation_sampling_seed": 12345,
+  "test_sampling_seeds": [
+    12345,
+    23456,
+    34567
+  ],
+  "objective": "unknown-bin v-MSE",
+  "schema_version": 1
+}

@@ -1,0 +1,239 @@
+{
+  "created_date": "2026-10-13",
+  "kind": "single_point_miso_frequency_completion",
+  "source": "DeepMIMO ray tracing",
+  "scenario": "o1_drone_200",
+  "deepmimo_version": "4.0.3",
+  "map_count": 8,
+  "tensor_axes": [
+    "point",
+    "rx_antenna",
+    "tx_antenna",
+    "subcarrier"
+  ],
+  "num_rx": 1,
+  "num_tx": 8,
+  "selected_subcarriers": [
+    0,
+    4,
+    8,
+    13,
+    17,
+    21,
+    25,
+    29,
+    34,
+    38,
+    42,
+    46,
+    50,
+    55,
+    59,
+    63
+  ],
+  "pilots": [
+    0,
+    8,
+    15
+  ],
+  "num_subcarriers_generated": 64,
+  "bandwidth_hz": 10000000.0,
+  "carrier_frequency_hz": 200000000000.0,
+  "actual_path_slots": 5,
+  "array_shape": [
+    8,
+    1
+  ],
+  "array_rotation_deg": [
+    0,
+    0,
+    0
+  ],
+  "array_spacing_wavelengths": 0.5,
+  "tx_element_offsets_m": [
+    [
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.000749481145,
+      0.0
+    ],
+    [
+      0.0,
+      0.00149896229,
+      0.0
+    ],
+    [
+      0.0,
+      0.002248443435,
+      0.0
+    ],
+    [
+      0.0,
+      0.00299792458,
+      0.0
+    ],
+    [
+      0.0,
+      0.003747405725,
+      0.0
+    ],
+    [
+      0.0,
+      0.00449688687,
+      0.0
+    ],
+    [
+      0.0,
+      0.005246368015,
+      0.0
+    ]
+  ],
+  "split_policy": "disjoint_x_bands_70_12_18_percent",
+  "split_counts": {
+    "train": 16000,
+    "val": 8000,
+    "test": 16000
+  },
+  "pilot_observation": "per-TX CSI from noiseless orthogonal sounding; not three scalar mixed observations",
+  "sounding_example": "8 orthogonal time slots at each of 3 pilot frequencies, channel constant during sounding",
+  "physical_scope": "static isotropic narrowband-array ray-tracing channel; no coupling, RF calibration error or Doppler",
+  "source_files_sha256": {
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/metadata.json": "e59d3b5db7d84216e11ca7a18a12529cd82ac2338fde39f15458b586ef8646a7",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/pilot_normalization_stats.json": "d787f296b558cfe5d4d6e9131b3a316466ebce4ee324dbda41250839827dcad8",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/maps/map_000.npz": "dae90068bd2062e5f6f3bd6b75f819752c56fbda7422da6e6d859e0cb03558cb",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/maps/map_001.npz": "e8e6ba001198b378c36dd8a0e0a8a1f24c8dd4dc1a48a1e6cc0c1d7659ce4808",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/maps/map_002.npz": "2184d8d45842591f740645d9133044f40c9a1b2305626dd9fc1a5ce0d4867adb",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/maps/map_003.npz": "faa783d76593342c1a07833020c2dbe0c7c1f198ef7211eeaa5641f5912c2058",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/maps/map_004.npz": "c10bb802a780ad3e37b1dd43a86ad350b1bebd6d3323acee36c461c0c57ac0d9",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/maps/map_005.npz": "2b290c5914f44bc560ff682d6fb1600483c8364dfea83e61746e35a9bee1151d",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/maps/map_006.npz": "09ca5b518fa56dcba312914faefeb77b7345efbe9f399c18e3f6cbd39ef8fbde",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/maps/map_007.npz": "a0ecdf71759493bd9a6ad7decddb9ec28d56dbac6f93a6698b14bbad1dda176a",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/splits/split_000.npz": "740a7295f59c6812cddc78a9f43f572ca7bd7d711fe9a012f5f55fd7018e1b98",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/splits/split_001.npz": "8973ec96d8ab7db96ac370bb3544f5bfa8aa35d591cf0dd59e16a3c3f57141a3",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/splits/split_002.npz": "563b28159062c6b8020a0356f94c690358966c9895ced20eeeb62fab2a80ff51",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/splits/split_003.npz": "956e3509cf96e6af3e0a67767d777fdebe2ad2ef6fe21eeb794c59bcf94f3bf3",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/splits/split_004.npz": "409fbe4bb57b7712d47d71c007c3b6311e9f57f9e4f277501eac9a6eb98e15f8",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/splits/split_005.npz": "d3db692c866f4e1c851661c6085ffd0f3539a4f4b9133d007e4f4590727a38b2",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/splits/split_006.npz": "c266f9a3524aaa12c95d3ea303cc42354b7111a427e7340a9adc675aaaa3cc49",
+    "<SISO_REFERENCE_PROJECT>/datasets/pilot_siso_deepmimo_o1_drone_200/splits/split_007.npz": "5c57b9b9221ba656ae1137558b3ba6bd658f7a42baefc3f26914279f1c74ae1e"
+  },
+  "source_unchanged": true,
+  "map_audits": [
+    {
+      "map": 0,
+      "shape": [
+        67456,
+        1,
+        8,
+        16
+      ],
+      "siso_relative_rms_error": 0.0,
+      "antenna_zero_relative_rms_error": 6.50924870729704e-08,
+      "split_sha256": "740a7295f59c6812cddc78a9f43f572ca7bd7d711fe9a012f5f55fd7018e1b98",
+      "actual_path_slots": 5,
+      "max_antennas_difference": 7.298197033378528e-07
+    },
+    {
+      "map": 1,
+      "shape": [
+        67456,
+        1,
+        8,
+        16
+      ],
+      "siso_relative_rms_error": 0.0,
+      "antenna_zero_relative_rms_error": 6.51950876937319e-08,
+      "split_sha256": "8973ec96d8ab7db96ac370bb3544f5bfa8aa35d591cf0dd59e16a3c3f57141a3",
+      "actual_path_slots": 5,
+      "max_antennas_difference": 7.192494422270101e-07
+    },
+    {
+      "map": 2,
+      "shape": [
+        67456,
+        1,
+        8,
+        16
+      ],
+      "siso_relative_rms_error": 0.0,
+      "antenna_zero_relative_rms_error": 6.475282218583895e-08,
+      "split_sha256": "563b28159062c6b8020a0356f94c690358966c9895ced20eeeb62fab2a80ff51",
+      "actual_path_slots": 5,
+      "max_antennas_difference": 6.999568995524896e-07
+    },
+    {
+      "map": 3,
+      "shape": [
+        67456,
+        1,
+        8,
+        16
+      ],
+      "siso_relative_rms_error": 0.0,
+      "antenna_zero_relative_rms_error": 6.457802270642157e-08,
+      "split_sha256": "956e3509cf96e6af3e0a67767d777fdebe2ad2ef6fe21eeb794c59bcf94f3bf3",
+      "actual_path_slots": 5,
+      "max_antennas_difference": 7.150308647396741e-07
+    },
+    {
+      "map": 4,
+      "shape": [
+        67456,
+        1,
+        8,
+        16
+      ],
+      "siso_relative_rms_error": 0.0,
+      "antenna_zero_relative_rms_error": 4.769827107391005e-08,
+      "split_sha256": "409fbe4bb57b7712d47d71c007c3b6311e9f57f9e4f277501eac9a6eb98e15f8",
+      "actual_path_slots": 5,
+      "max_antennas_difference": 2.466490229835472e-07
+    },
+    {
+      "map": 5,
+      "shape": [
+        67456,
+        1,
+        8,
+        16
+      ],
+      "siso_relative_rms_error": 0.0,
+      "antenna_zero_relative_rms_error": 4.77508495486066e-08,
+      "split_sha256": "d3db692c866f4e1c851661c6085ffd0f3539a4f4b9133d007e4f4590727a38b2",
+      "actual_path_slots": 5,
+      "max_antennas_difference": 2.468519824105897e-07
+    },
+    {
+      "map": 6,
+      "shape": [
+        67456,
+        1,
+        8,
+        16
+      ],
+      "siso_relative_rms_error": 0.0,
+      "antenna_zero_relative_rms_error": 4.775472374293156e-08,
+      "split_sha256": "c266f9a3524aaa12c95d3ea303cc42354b7111a427e7340a9adc675aaaa3cc49",
+      "actual_path_slots": 5,
+      "max_antennas_difference": 2.4702927703401656e-07
+    },
+    {
+      "map": 7,
+      "shape": [
+        67456,
+        1,
+        8,
+        16
+      ],
+      "siso_relative_rms_error": 0.0,
+      "antenna_zero_relative_rms_error": 4.7728366074642164e-08,
+      "split_sha256": "5c57b9b9221ba656ae1137558b3ba6bd658f7a42baefc3f26914279f1c74ae1e",
+      "actual_path_slots": 5,
+      "max_antennas_difference": 2.47178149948013e-07
+    }
+  ]
+}

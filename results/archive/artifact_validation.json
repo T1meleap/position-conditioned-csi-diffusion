@@ -1,0 +1,39 @@
+{
+  "old_dataset_unchanged": true,
+  "split_disjoint": true,
+  "counts": {
+    "train": 16000,
+    "val": 8000,
+    "test": 16000
+  },
+  "formal_runs": [
+    {
+      "run": ".\\runs\\matrix_400_T200\\independent\\seed_2026",
+      "best_epoch": 400,
+      "weights_finite": true
+    },
+    {
+      "run": ".\\runs\\matrix_400_T200\\joint\\seed_2026",
+      "best_epoch": 400,
+      "weights_finite": true
+    },
+    {
+      "run": ".\\runs\\matrix_400_T200\\joint\\seed_2027",
+      "best_epoch": 400,
+      "weights_finite": true
+    },
+    {
+      "run": ".\\runs\\matrix_400_T200\\joint\\seed_2028",
+      "best_epoch": 400,
+      "weights_finite": true
+    }
+  ],
+  "baseline_methods": [
+    "LS RI interpolation",
+    "Joint raw LMMSE",
+    "Joint relative-ridge LMMSE",
+    "GMM-MMSE no position",
+    "GMM-MMSE XYZ"
+  ],
+  "hashes_match": true
+}

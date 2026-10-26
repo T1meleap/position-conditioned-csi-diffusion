@@ -1,0 +1,34 @@
+# Environments and Python caches
+.conda/
+.venv/
+envs_dataset/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+
+# Local data, model weights and generated predictions
+/datasets/
+/deepmimo_scenarios/
+/runs/
+/examples/
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.npz
+*.npy
+
+# Secrets and OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+Thumbs.db
+.DS_Store
+
+# Release tooling output
+/release_manifest.json
+/upload_payload.json

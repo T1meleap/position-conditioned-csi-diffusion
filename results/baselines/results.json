@@ -1,0 +1,177 @@
+{
+  "methods": {
+    "LS RI interpolation": {
+      "complex_nmse_db": 2.762101946003959,
+      "magnitude_nmse_db": -9.332949630338799,
+      "weighted_phase_deg": 101.38726867369908,
+      "strong_phase_deg": 100.29733089308019,
+      "relative_antenna_phase_deg": 8.193983794792679,
+      "beamforming_fraction_mean": 0.9561266415036308,
+      "beamforming_fraction_power_weighted": 0.9628335852568605,
+      "beamforming_loss_db": 0.1644876920991309,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        2.7599289829011706,
+        2.762545418113858,
+        2.7642092135447482,
+        2.7621424830602836,
+        2.760198513674574,
+        2.7614233351954076,
+        2.762965749893535,
+        2.7634030176795776
+      ]
+    },
+    "Joint raw LMMSE": {
+      "complex_nmse_db": 15.032748203849541,
+      "magnitude_nmse_db": 14.455103813775223,
+      "weighted_phase_deg": 75.81951254588745,
+      "strong_phase_deg": 73.1590513201466,
+      "relative_antenna_phase_deg": 32.99542374342574,
+      "beamforming_fraction_mean": 0.769694271818824,
+      "beamforming_fraction_power_weighted": 0.7430879589302951,
+      "beamforming_loss_db": 1.289597759875936,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        17.33677774815709,
+        14.16163140527839,
+        12.340045601653372,
+        12.280933202687358,
+        12.939570131637076,
+        13.831783036602587,
+        15.3756626184674,
+        17.946527579675365
+      ]
+    },
+    "Joint relative-ridge LMMSE": {
+      "complex_nmse_db": 1.3976568930599087,
+      "magnitude_nmse_db": -6.058475439408602,
+      "weighted_phase_deg": 79.51655626894394,
+      "strong_phase_deg": 76.46730927105685,
+      "relative_antenna_phase_deg": 43.551789772033906,
+      "beamforming_fraction_mean": 0.7347281916111029,
+      "beamforming_fraction_power_weighted": 0.7173496053284782,
+      "beamforming_loss_db": 1.4426913629749938,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        1.5208621169838585,
+        1.5574106676427382,
+        1.4093439905259655,
+        1.1033043467313177,
+        1.095448960098965,
+        1.4115752830426334,
+        1.5681643428891738,
+        1.4862072252025293
+      ]
+    },
+    "GMM-MMSE no position": {
+      "complex_nmse_db": 1.0573467673740253,
+      "magnitude_nmse_db": -6.090085030910504,
+      "weighted_phase_deg": 79.89156610831587,
+      "strong_phase_deg": 76.93124641654357,
+      "relative_antenna_phase_deg": 46.94383897167656,
+      "beamforming_fraction_mean": 0.7109586955615961,
+      "beamforming_fraction_power_weighted": 0.6899533972284053,
+      "beamforming_loss_db": 1.611802426106582,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        1.022847031104196,
+        1.2498593600708643,
+        1.175951205251316,
+        0.771370762298626,
+        0.7699657279483536,
+        1.1881466360866209,
+        1.2599694574540885,
+        0.9888413015227668
+      ]
+    },
+    "GMM-MMSE XYZ": {
+      "complex_nmse_db": 1.0592727632297747,
+      "magnitude_nmse_db": -6.0935930273235215,
+      "weighted_phase_deg": 79.89597922770875,
+      "strong_phase_deg": 76.94487492610374,
+      "relative_antenna_phase_deg": 47.0375302615397,
+      "beamforming_fraction_mean": 0.7096856868083676,
+      "beamforming_fraction_power_weighted": 0.6890245160698681,
+      "beamforming_loss_db": 1.6176532525573937,
+      "phase_prediction_coverage": 1.0,
+      "beamforming_truth_coverage": 1.0,
+      "pilot_max_error_normalized": 0.0,
+      "per_antenna_complex_nmse_db": [
+        1.024526078735812,
+        1.2523554516711812,
+        1.178728685663452,
+        0.7737689156515295,
+        0.7718643907082021,
+        1.1898890917120215,
+        1.2614802439366868,
+        0.9897307475640633
+      ]
+    }
+  },
+  "failures": {},
+  "source_hashes": {
+    ".\\src\\miso\\__init__.py": "727d2c536c6d4e428ffe2a8ba556b4ad8273fc8db144f0cba803fb345a7e58af",
+    ".\\src\\miso\\baselines.py": "3825b98b033a4252799f82c6ba98e0a1afc23eeb579e1f0ed9e3582b81b749e9",
+    ".\\src\\miso\\data.py": "60f861fb9eada0ce6cc7f3d274480d3021f50c29777367b971e0e7a405eb80e6",
+    ".\\src\\miso\\metrics.py": "d76a3bf2583680b1e595bdc33b42f4c72991bd7ca84e54e57c7b824b8bae40b5",
+    ".\\src\\miso\\model.py": "eba1eaf274f4e5d17cbc1a29eed7870bf42084e70170c91d66d9b913e1096bf2",
+    ".\\src\\miso\\training.py": "74096fa185fcb29de8e92a1dbc177eef295bdb25fd3a241414b6e70dc9a5cb55",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\metadata.json": "f8da483263f7de1a306066a91bf2c30184f2cb4b09e2de90f5619e2a5d6b6ce9",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\normalization.json": "e6b8e761aead220f5daf10048c95d70d458329949e4a5c07b59ac2309b919630",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_000.npz": "8722f72a0b34af1ebf3dbd16db990932029e5dbc83b1a4ef7c787830e542c0f4",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_001.npz": "62486ef2688fa39fbb2b5159edeb5cac0435776576ab4837ae1b05b7ba8364d2",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_002.npz": "29de74ddf56d0e7792a7cc0d45b6c036e7794320cf5cdcb920cb235bc63e9583",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_003.npz": "e46b94148355948ccf0580304985be1d0c2381e1274b7a03331f04af313dabcf",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_004.npz": "ed7256b8413e5c27332bd25ce9e7ca921be196a2c506e9f70e25e3401db32616",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_005.npz": "05e751ac4074ce59a2795317e615d232f18b81cf64d1ff5fb25aa6caae72c602",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_006.npz": "62660d6e96bf9ba2546445539b9260f7fb33fe41c60444d81c1ea12fe3a22407",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_007.npz": "9ab325a87f0f06ed72ec6e21f9ccac2aa21012f535d2fce403f83aec66612f4d",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_000.npz": "740a7295f59c6812cddc78a9f43f572ca7bd7d711fe9a012f5f55fd7018e1b98",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_001.npz": "8973ec96d8ab7db96ac370bb3544f5bfa8aa35d591cf0dd59e16a3c3f57141a3",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_002.npz": "563b28159062c6b8020a0356f94c690358966c9895ced20eeeb62fab2a80ff51",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_003.npz": "956e3509cf96e6af3e0a67767d777fdebe2ad2ef6fe21eeb794c59bcf94f3bf3",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_004.npz": "409fbe4bb57b7712d47d71c007c3b6311e9f57f9e4f277501eac9a6eb98e15f8",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_005.npz": "d3db692c866f4e1c851661c6085ffd0f3539a4f4b9133d007e4f4590727a38b2",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_006.npz": "c266f9a3524aaa12c95d3ea303cc42354b7111a427e7340a9adc675aaaa3cc49",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_007.npz": "5c57b9b9221ba656ae1137558b3ba6bd658f7a42baefc3f26914279f1c74ae1e"
+  },
+  "selection": {
+    "Joint relative-ridge LMMSE": {
+      "ridge_ratio": 0.01,
+      "absolute_loading": 5.2593444014507894e-17,
+      "condition_number": 784.1517964387476,
+      "raw_complex_csi": true,
+      "normalization": false,
+      "pseudoinverse": false
+    },
+    "GMM-MMSE no position": {
+      "components": 1,
+      "ridge_scaled_coordinates": 0.01,
+      "position": false,
+      "seed": 2026,
+      "converged": true,
+      "iterations": 2,
+      "feature_dimension": 256,
+      "training_only_common_csi_scale": 7.250941255331305e-08
+    },
+    "GMM-MMSE XYZ": {
+      "components": 1,
+      "ridge_scaled_coordinates": 0.01,
+      "position": true,
+      "seed": 2026,
+      "converged": true,
+      "iterations": 2,
+      "feature_dimension": 259,
+      "training_only_common_csi_scale": 7.250941255331305e-08
+    }
+  },
+  "test_samples": 16000
+}

@@ -1,0 +1,45 @@
+{
+  "analytic_checks": [
+    {
+      "map": "map_000.npz",
+      "analytic_relative_rms_error": 9.825432757539943e-07,
+      "points_checked": 256
+    },
+    {
+      "map": "map_001.npz",
+      "analytic_relative_rms_error": 1.0829340417849405e-06,
+      "points_checked": 256
+    },
+    {
+      "map": "map_002.npz",
+      "analytic_relative_rms_error": 1.0768927420159038e-06,
+      "points_checked": 256
+    },
+    {
+      "map": "map_003.npz",
+      "analytic_relative_rms_error": 1.1036165412614641e-06,
+      "points_checked": 256
+    },
+    {
+      "map": "map_004.npz",
+      "analytic_relative_rms_error": 1.529892327739538e-06,
+      "points_checked": 256
+    },
+    {
+      "map": "map_005.npz",
+      "analytic_relative_rms_error": 1.5374883661902386e-06,
+      "points_checked": 256
+    },
+    {
+      "map": "map_006.npz",
+      "analytic_relative_rms_error": 1.537097880152819e-06,
+      "points_checked": 256
+    },
+    {
+      "map": "map_007.npz",
+      "analytic_relative_rms_error": 1.5497562200498347e-06,
+      "points_checked": 256
+    }
+  ],
+  "old_dataset_unchanged": true
+}

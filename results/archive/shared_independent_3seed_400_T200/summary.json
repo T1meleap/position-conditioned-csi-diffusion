@@ -1,0 +1,314 @@
+{
+  "training_seeds": [
+    2026,
+    2027,
+    2028
+  ],
+  "run_paths": [
+    ".\\runs\\matrix_400_T200\\independent\\seed_2026",
+    ".\\runs\\shared_independent_3seed_400_T200\\seed_2027",
+    ".\\runs\\shared_independent_3seed_400_T200\\seed_2028"
+  ],
+  "metrics": {
+    "complex_nmse_db": {
+      "mean": -9.272869708390855,
+      "training_seed_std": 1.5769331811001335,
+      "per_training_seed": {
+        "2026": -7.504102148682546,
+        "2027": -9.782668054135218,
+        "2028": -10.531838922354801
+      }
+    },
+    "magnitude_nmse_db": {
+      "mean": -12.512026347993952,
+      "training_seed_std": 0.6868752936967157,
+      "per_training_seed": {
+        "2026": -11.847044221613467,
+        "2027": -13.21887919847934,
+        "2028": -12.47015562388905
+      }
+    },
+    "weighted_phase_deg": {
+      "mean": 11.338627130692865,
+      "training_seed_std": 3.405650231257615,
+      "per_training_seed": {
+        "2026": 15.164033213562767,
+        "2027": 10.215325586293174,
+        "2028": 8.636522592222654
+      }
+    },
+    "strong_phase_deg": {
+      "mean": 11.035427535805473,
+      "training_seed_std": 2.844676672250676,
+      "per_training_seed": {
+        "2026": 14.298871275559181,
+        "2027": 9.727181457517302,
+        "2028": 9.080229874339933
+      }
+    },
+    "relative_antenna_phase_deg": {
+      "mean": 7.742883392683041,
+      "training_seed_std": 0.3940513456491082,
+      "per_training_seed": {
+        "2026": 7.960823038321664,
+        "2027": 7.979822800951969,
+        "2028": 7.288004338775491
+      }
+    },
+    "beamforming_fraction_mean": {
+      "mean": 0.9645076621879034,
+      "training_seed_std": 0.0032441110531642317,
+      "per_training_seed": {
+        "2026": 0.962442367524003,
+        "2027": 0.9628338034716967,
+        "2028": 0.9682468155680107
+      }
+    },
+    "beamforming_fraction_power_weighted": {
+      "mean": 0.9643128244382675,
+      "training_seed_std": 0.004331216760947548,
+      "per_training_seed": {
+        "2026": 0.9641084382422163,
+        "2027": 0.9600874190865222,
+        "2028": 0.9687426159860643
+      }
+    },
+    "beamforming_loss_db": {
+      "mean": 0.1578497746926591,
+      "training_seed_std": 0.019503416718460172,
+      "per_training_seed": {
+        "2026": 0.15874116024518473,
+        "2027": 0.17689221516567066,
+        "2028": 0.13791594866712192
+      }
+    }
+  },
+  "common_config": {
+    "dataset": ".\\datasets\\deepmimo_o1_drone_200_8x1",
+    "epochs": 400,
+    "timesteps": 200,
+    "batch_size": 512,
+    "evaluation_batch_size": 1024,
+    "mode": "independent",
+    "cap": 0,
+    "num_tx": 8,
+    "coordinates": "relative_xyz",
+    "learning_rate": 0.0002,
+    "warmup_epochs": 5,
+    "minimum_lr_ratio": 0.1,
+    "ema": 0.999,
+    "weight_decay": 1e-05,
+    "patience": 30,
+    "validation_interval": 10,
+    "validation_sampling_seed": 12345,
+    "test_sampling_seeds": [
+      12345,
+      23456,
+      34567
+    ],
+    "objective": "unknown-bin v-MSE",
+    "schema_version": 1
+  },
+  "aggregation": "average three sampling-seed metrics within each training run, then mean and sample SD across three training seeds; no prediction ensemble",
+  "test_samples": 16000,
+  "source_hashes": {
+    ".\\src\\miso\\__init__.py": "727d2c536c6d4e428ffe2a8ba556b4ad8273fc8db144f0cba803fb345a7e58af",
+    ".\\src\\miso\\baselines.py": "3825b98b033a4252799f82c6ba98e0a1afc23eeb579e1f0ed9e3582b81b749e9",
+    ".\\src\\miso\\data.py": "60f861fb9eada0ce6cc7f3d274480d3021f50c29777367b971e0e7a405eb80e6",
+    ".\\src\\miso\\metrics.py": "d76a3bf2583680b1e595bdc33b42f4c72991bd7ca84e54e57c7b824b8bae40b5",
+    ".\\src\\miso\\model.py": "eba1eaf274f4e5d17cbc1a29eed7870bf42084e70170c91d66d9b913e1096bf2",
+    ".\\src\\miso\\training.py": "74096fa185fcb29de8e92a1dbc177eef295bdb25fd3a241414b6e70dc9a5cb55",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\metadata.json": "f8da483263f7de1a306066a91bf2c30184f2cb4b09e2de90f5619e2a5d6b6ce9",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\normalization.json": "e6b8e761aead220f5daf10048c95d70d458329949e4a5c07b59ac2309b919630",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_000.npz": "8722f72a0b34af1ebf3dbd16db990932029e5dbc83b1a4ef7c787830e542c0f4",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_001.npz": "62486ef2688fa39fbb2b5159edeb5cac0435776576ab4837ae1b05b7ba8364d2",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_002.npz": "29de74ddf56d0e7792a7cc0d45b6c036e7794320cf5cdcb920cb235bc63e9583",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_003.npz": "e46b94148355948ccf0580304985be1d0c2381e1274b7a03331f04af313dabcf",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_004.npz": "ed7256b8413e5c27332bd25ce9e7ca921be196a2c506e9f70e25e3401db32616",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_005.npz": "05e751ac4074ce59a2795317e615d232f18b81cf64d1ff5fb25aa6caae72c602",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_006.npz": "62660d6e96bf9ba2546445539b9260f7fb33fe41c60444d81c1ea12fe3a22407",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\maps\\map_007.npz": "9ab325a87f0f06ed72ec6e21f9ccac2aa21012f535d2fce403f83aec66612f4d",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_000.npz": "740a7295f59c6812cddc78a9f43f572ca7bd7d711fe9a012f5f55fd7018e1b98",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_001.npz": "8973ec96d8ab7db96ac370bb3544f5bfa8aa35d591cf0dd59e16a3c3f57141a3",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_002.npz": "563b28159062c6b8020a0356f94c690358966c9895ced20eeeb62fab2a80ff51",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_003.npz": "956e3509cf96e6af3e0a67767d777fdebe2ad2ef6fe21eeb794c59bcf94f3bf3",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_004.npz": "409fbe4bb57b7712d47d71c007c3b6311e9f57f9e4f277501eac9a6eb98e15f8",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_005.npz": "d3db692c866f4e1c851661c6085ffd0f3539a4f4b9133d007e4f4590727a38b2",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_006.npz": "c266f9a3524aaa12c95d3ea303cc42354b7111a427e7340a9adc675aaaa3cc49",
+    ".\\datasets\\deepmimo_o1_drone_200_8x1\\splits\\split_007.npz": "5c57b9b9221ba656ae1137558b3ba6bd658f7a42baefc3f26914279f1c74ae1e"
+  },
+  "preservation": {
+    "protected_files": 70,
+    "protected_files_unchanged": true,
+    "core_and_dataset_unchanged": true,
+    "validation_indices_identical": true,
+    "training_seeds": [
+      2026,
+      2027,
+      2028
+    ]
+  },
+  "checkpoint_checks": [
+    {
+      "seed": 2026,
+      "weights_finite": true,
+      "checkpoint_sha256": "e88d406d0aa6b55dc7b4c48b241ef3b1c733489fe3063cc8dda20f717cb77aec"
+    },
+    {
+      "seed": 2027,
+      "weights_finite": true,
+      "checkpoint_sha256": "dc15c1b382a87f7de227718a74f547565c32b1eec1b88fdb4c92d7c48a430d0a"
+    },
+    {
+      "seed": 2028,
+      "weights_finite": true,
+      "checkpoint_sha256": "e8d03cd67a9542de5f7dc4d14d7ef673695d652f6056b865a005510062cd825e"
+    }
+  ],
+  "per_run": [
+    {
+      "seed": 2026,
+      "best_epoch": 400,
+      "completed_epochs": 400,
+      "full_validation": {
+        "complex_nmse_db": -20.150229979837434,
+        "magnitude_nmse_db": -23.12997522510885,
+        "weighted_phase_deg": 2.3512602931493363,
+        "strong_phase_deg": 2.7536310870342606,
+        "relative_antenna_phase_deg": 3.0962754062560727,
+        "beamforming_fraction_mean": 0.9906827300187562,
+        "beamforming_fraction_power_weighted": 0.9924473762754891,
+        "beamforming_loss_db": 0.03292512070211756,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 2.191193948641797e-07,
+        "per_antenna_complex_nmse_db": [
+          -20.117269767872568,
+          -20.12624682437611,
+          -20.145269365396707,
+          -20.17600445470356,
+          -20.16666528783359,
+          -20.158435511231488,
+          -20.149808457155824,
+          -20.162336141432892
+        ]
+      },
+      "test": {
+        "complex_nmse_db_mean": -7.504102148682546,
+        "complex_nmse_db_std": 0.00030768271595490386,
+        "magnitude_nmse_db_mean": -11.847044221613467,
+        "magnitude_nmse_db_std": 0.0015178749284369753,
+        "weighted_phase_deg_mean": 15.164033213562767,
+        "weighted_phase_deg_std": 0.0023695221179767297,
+        "strong_phase_deg_mean": 14.298871275559181,
+        "strong_phase_deg_std": 0.0023368196534190202,
+        "relative_antenna_phase_deg_mean": 7.960823038321664,
+        "relative_antenna_phase_deg_std": 0.004189737943165512,
+        "beamforming_fraction_mean_mean": 0.962442367524003,
+        "beamforming_fraction_mean_std": 7.526600755690637e-06,
+        "beamforming_fraction_power_weighted_mean": 0.9641084382422163,
+        "beamforming_fraction_power_weighted_std": 8.800346550479999e-06,
+        "beamforming_loss_db_mean": 0.15874116024518473,
+        "beamforming_loss_db_std": 3.9642158662853544e-05
+      }
+    },
+    {
+      "seed": 2027,
+      "best_epoch": 400,
+      "completed_epochs": 400,
+      "full_validation": {
+        "complex_nmse_db": -20.353380539930793,
+        "magnitude_nmse_db": -23.328286265065223,
+        "weighted_phase_deg": 2.251242959491713,
+        "strong_phase_deg": 2.5858450286574444,
+        "relative_antenna_phase_deg": 2.977321767495647,
+        "beamforming_fraction_mean": 0.9910331507010082,
+        "beamforming_fraction_power_weighted": 0.9926372811013635,
+        "beamforming_loss_db": 0.03209417761957262,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 2.191193948641797e-07,
+        "per_antenna_complex_nmse_db": [
+          -20.321181901902136,
+          -20.332216342240024,
+          -20.352442261521034,
+          -20.36494389688311,
+          -20.375144717538817,
+          -20.359794761658275,
+          -20.354654564648314,
+          -20.366802883536224
+        ]
+      },
+      "test": {
+        "complex_nmse_db_mean": -9.782668054135218,
+        "complex_nmse_db_std": 0.0015705712837795207,
+        "magnitude_nmse_db_mean": -13.21887919847934,
+        "magnitude_nmse_db_std": 0.0006893865990145824,
+        "weighted_phase_deg_mean": 10.215325586293174,
+        "weighted_phase_deg_std": 0.0035108663178788856,
+        "strong_phase_deg_mean": 9.727181457517302,
+        "strong_phase_deg_std": 0.0021813256911942763,
+        "relative_antenna_phase_deg_mean": 7.979822800951969,
+        "relative_antenna_phase_deg_std": 0.007439779010588683,
+        "beamforming_fraction_mean_mean": 0.9628338034716967,
+        "beamforming_fraction_mean_std": 2.738918106468478e-05,
+        "beamforming_fraction_power_weighted_mean": 0.9600874190865222,
+        "beamforming_fraction_power_weighted_std": 4.249620521783911e-05,
+        "beamforming_loss_db_mean": 0.17689221516567066,
+        "beamforming_loss_db_std": 0.0001922321413495838
+      }
+    },
+    {
+      "seed": 2028,
+      "best_epoch": 400,
+      "completed_epochs": 400,
+      "full_validation": {
+        "complex_nmse_db": -20.235672311819123,
+        "magnitude_nmse_db": -23.112341490011925,
+        "weighted_phase_deg": 2.2849654376310617,
+        "strong_phase_deg": 2.6696152564814724,
+        "relative_antenna_phase_deg": 3.0288485035515644,
+        "beamforming_fraction_mean": 0.990837728652253,
+        "beamforming_fraction_power_weighted": 0.9925096732180645,
+        "beamforming_loss_db": 0.03265251814463919,
+        "phase_prediction_coverage": 1.0,
+        "beamforming_truth_coverage": 1.0,
+        "pilot_max_error_normalized": 2.191193948641797e-07,
+        "per_antenna_complex_nmse_db": [
+          -20.221372203342618,
+          -20.211600688864657,
+          -20.232350824587204,
+          -20.23441356817044,
+          -20.24447982022722,
+          -20.249410821212148,
+          -20.23712575790919,
+          -20.254677357993828
+        ]
+      },
+      "test": {
+        "complex_nmse_db_mean": -10.531838922354801,
+        "complex_nmse_db_std": 0.0013007233588836914,
+        "magnitude_nmse_db_mean": -12.47015562388905,
+        "magnitude_nmse_db_std": 0.00040255601315943295,
+        "weighted_phase_deg_mean": 8.636522592222654,
+        "weighted_phase_deg_std": 0.0033731360916385146,
+        "strong_phase_deg_mean": 9.080229874339933,
+        "strong_phase_deg_std": 0.00217639520913814,
+        "relative_antenna_phase_deg_mean": 7.288004338775491,
+        "relative_antenna_phase_deg_std": 0.002310478103491415,
+        "beamforming_fraction_mean_mean": 0.9682468155680107,
+        "beamforming_fraction_mean_std": 1.6667984532820363e-05,
+        "beamforming_fraction_power_weighted_mean": 0.9687426159860643,
+        "beamforming_fraction_power_weighted_std": 2.3559175151449092e-05,
+        "beamforming_loss_db_mean": 0.13791594866712192,
+        "beamforming_loss_db_std": 0.00010561680933132605
+      }
+    }
+  ],
+  "runtime": {
+    "python": "3.8.20",
+    "python_executable": "<ORIGINAL_PROJECT>/.conda/python.exe",
+    "torch": "2.1.2+cu118",
+    "cuda": "11.8"
+  }
+}

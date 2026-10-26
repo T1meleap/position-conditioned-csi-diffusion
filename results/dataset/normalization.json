@@ -1,0 +1,14 @@
+{
+  "h_rms": 7.250941255331305e-08,
+  "relative_mean": [
+    -84.59725189208984,
+    -164.35626220703125,
+    -1.8005938529968262
+  ],
+  "relative_std": [
+    97.2436752319336,
+    45.7608642578125,
+    37.01221466064453
+  ],
+  "scope": "training points only; one shared complex scale for all antennas/frequencies"
+}
